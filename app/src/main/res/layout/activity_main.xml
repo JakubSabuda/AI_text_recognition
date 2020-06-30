@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /*
+  ~  Created by Jakub Sabuda on 6/30/20 4:34 PM
+  ~  Copyright (c) 2020 . All rights reserved.
+  ~  Last modified 6/30/20 1:42 PM
+  ~ */
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_shape">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageViewId"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_baseline_photo_200_white" />
+
+
+    <TextView
+        android:id="@+id/text_resoult"
+        android:layout_width="341dp"
+        android:layout_height="159dp"
+        android:layout_marginTop="28dp"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewId" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_resoult"
+        app:layout_constraintVertical_bias="0.44">
+
+        <Button
+            android:id="@+id/btn_take_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttons"
+            android:layout_marginRight="8dp"
+            android:textColor="@android:color/white"
+            android:text="camera" />
+
+        <Button
+            android:id="@+id/btn_load_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttons"
+            android:layout_marginRight="8dp"
+            android:textColor="@android:color/white"
+            android:text="load" />
+
+        <Button
+            android:id="@+id/btn_text_recognition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_buttons"
+            android:textColor="@android:color/white"
+            android:text="convert" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

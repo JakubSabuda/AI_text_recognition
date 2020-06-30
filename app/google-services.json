@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "516654943218",
+    "firebase_url": "https://aitextrecognition.firebaseio.com",
+    "project_id": "aitextrecognition",
+    "storage_bucket": "aitextrecognition.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516654943218:android:607ad54e45a6572693b96b",
+        "android_client_info": {
+          "package_name": "com.jakubsabuda.ai_text_recognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516654943218-l7riok12du7soj5gf4b41lgpp1anjf4c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jakubsabuda.ai_text_recognition",
+            "certificate_hash": "1eba89db8cf942490ef5bade00d9350571ec5863"
+          }
+        },
+        {
+          "client_id": "516654943218-cglvhlgqgu9i7nm5c290t8s1gmept67s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6os_vEbm41Egh2Kh0QX8coEtEosstjU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516654943218-cglvhlgqgu9i7nm5c290t8s1gmept67s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
